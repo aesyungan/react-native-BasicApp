@@ -96,7 +96,7 @@ export class ComponentHome extends Component {
             <View style={styles.textInput}>
               <TextInput
               
-                placeholder={'buscar..'}
+                placeholder={'Buscar..'}
                 onChangeText={(text) => this.filterSearch(text)}
                 value={this.state.text}
               />
